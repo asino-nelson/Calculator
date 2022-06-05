@@ -1,0 +1,78 @@
+body{
+    background-image: url('lock.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    width: 400px;
+    height: 700px;
+    background-color:rgba(95, 158, 160, 0.291);
+    backdrop-filter: blur(4px);
+    box-shadow: 4px rgba(0, 0, 0, 3);
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+form input{
+    width: 100%;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgba(95, 158, 160, 0.363);
+    color: white;
+    font-size: 2rem;
+    text-align: right;
+    pointer-events: none;
+
+}
+button {
+    flex: 0 0 22%;
+    width: 90px;
+    margin: 5px 0;
+    height: 60px;
+    font-size: 1rem;
+    font-weight: 800;
+    border: none ;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.btn-yellow{
+    background-color: coral;
+    transition: 0.1s;
+}
+.btn-yellow:hover{
+    background-color:sienna;
+}
+.btn-grey{
+    transition: 0.1s;
+}
+.btn-grey:hover{
+    background-color:rgba(51, 130, 120, 0.429);
+}
+.btn-equal{
+    background-color: chartreuse;
+    transition: 0.1s;
+}
+.btn-equal:hover{
+    background-color: darkgreen;
+}
+.btn-clear{
+    background-color: crimson;
+    transition: 0.1s;
+}
+.btn-clear:hover{
+    background-color: red;
+}
